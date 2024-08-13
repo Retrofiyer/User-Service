@@ -1,5 +1,3 @@
-<a id="readme-top"></a>
-
 <div>
     <h1>User Registration Microservice</h1>
 </div>
@@ -10,12 +8,12 @@ This microservice is designed to handle the registration of users for a streamin
 
 ## Table of Contents
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
+<ol>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#features">Features</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -24,10 +22,14 @@ This microservice is designed to handle the registration of users for a streamin
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#configuration">Configuration</a></li>
+        <li><a href="#running-the-service">Running the service</a></li>
       </ul>
     </li>
-  </ol>
-</details>
+    <li>
+      <a href="#contributing">Contributing</a>
+    </li>
+ </ol>
 
 ## Overview
 
@@ -44,6 +46,17 @@ The User Service is a RESTful API built using Spring Boot. It offers endpoints f
 </div>
 
 
+## Built With
+
+[![Java][java.com]][java-url]
+[![Spring Boot][springboot.com]][springboot-url]
+[![PostgreSQL][postgresql.com]][postgresql-url]
+[![RabbitMQ][rabbitmq.com]][rabbitmq-url]
+[![Swagger][swagger.com]][swagger-url] [![Docker][docker.com]][docker-url]
+
+<!-- GETTING STARTED -->
+## Getting Started
+
 ## Prerequisites
 
 Before you begin, make sure you have the following tools installed on your machine:
@@ -55,20 +68,7 @@ Before you begin, make sure you have the following tools installed on your machi
 If you don't have any of these tools installed, follow the provided links to install them.
 
 
-## Built With
-<ul>
-  <li> [![Java][java.com]][java-url] </li>
-  <li> [![Spring Boot][springboot.com]][springboot-url] </li>
-  <li> [![PostgreSQL][postgresql.com]][postgresql-url] </li>
-   <li> [![RabbitMQ][rabbitmq.com]][rabbitmq-url] </li>
-   <li> [![Swagger][swagger.com]][swagger-url] </li>
-   <li> [![Docker][docker.com]][docker-url] </li>
-</ul>
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-### Install
+## Installation
 
 1.- Clone the repository
    ```sh
