@@ -57,12 +57,12 @@ If you don't have any of these tools installed, follow the provided links to ins
 
 ## Built With
 <ul>
-  <li> [![Java][java.com]][java-url]</li>
-  <li> [![Spring Boot][springboot.com]][springboot-url]</li>
-  <li> [![PostgreSQL][postgresql.com]][postgresql-url]</li>
-   <li> [![RabbitMQ][rabbitmq.com]][rabbitmq-url]</li>
-   <li> [![Swagger][swagger.com]][swagger-url]</li>
-   <li> [![Docker][docker.com]][docker-url]</li>
+  <li> [![Java][java.com]][java-url] </li>
+  <li> [![Spring Boot][springboot.com]][springboot-url] </li>
+  <li> [![PostgreSQL][postgresql.com]][postgresql-url] </li>
+   <li> [![RabbitMQ][rabbitmq.com]][rabbitmq-url] </li>
+   <li> [![Swagger][swagger.com]][swagger-url] </li>
+   <li> [![Docker][docker.com]][docker-url] </li>
 </ul>
 
 <!-- GETTING STARTED -->
