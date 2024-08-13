@@ -35,9 +35,11 @@ The User Service is a RESTful API built using Spring Boot. It offers endpoints f
 ## Features
 
 <div>
-  <a> ► User Registration: Allows new users to register with the platform.</a>
-  <a> ► User Authentication: Enables users to log in and access their accounts securely.</a>
-  <a> ► Profile Management: Supports updating user profile information.</a>
+  <ul>
+      <li> <b>► User Registration:</b> Allows new users to register with the platform.</li>
+      <li> <b>► User Authentication:</b> Enables users to log in and access their accounts securely.</li>
+      <li> <b>► Profile Management:</b> Supports updating user profile information.</li>
+  </ul>
 </div>
 
 
