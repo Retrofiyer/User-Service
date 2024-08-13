@@ -21,24 +21,18 @@
 </details>
 
 <div>
-    <h1>Pet Phobia</h1>
-    <p>Group Integrates:</p>
-    <ul>
-        <li>Edwin Allauca</li>
-        <li>Sebastián Carrera</li>
-    </ul>
+    <h1>User Registration Microservice</h1>
 </div>
 
 ## About The Project
 
-![Captura de pantalla 2024-07-08 121340](https://github.com/Retrofiyer/PetPhobia/assets/90810854/ad978a6d-714c-4fc1-a009-8467cc6199f6)
+This microservice is designed to handle the registration of users for a streaming application. It manages the creation of user accounts, including the capture and validation of user details such as username, password, and email. The microservice ensures that all user data is securely stored and that the registration process is seamless, providing an essential component for user authentication and account management within the streaming platform.
 
-This project is dedicated to helping individuals who suffer from pet phobia, particularly towards cats and dogs. Pet phobia can significantly impact a person's quality of life, limiting their ability to interact with animals and even affecting their social interactions and mental well-being. This initiative aims to provide professional support and guidance to help individuals overcome their fear and understand that pets can be harmless, friendly, and excellent companions.
-
-Project focused:
-* Offer professional counseling and therapeutic interventions to help individuals understand and manage their pet phobia. This support will be tailored to each person's specific needs and phobia severity.
-* Develop educational programs that inform individuals about pets, their behaviors, and the benefits of pet ownership. These programs aim to dispel myths and provide accurate information to reduce fear and anxiety.
-* Implement controlled exposure therapy sessions where individuals can gradually and safely interact with cats and dogs under professional supervision. This method helps desensitize them to their fear and build positive associations with pets.
+Key features include:
+User Account Creation: Handles the registration process with input validation and error handling.
+Secure Data Storage: Ensures user credentials are encrypted and stored securely.
+Integration-Ready: Easily integrates with other services, such as authentication and user profile management, within the streaming platform.
+Scalability: Designed to handle a high volume of user registrations, making it suitable for large-scale applications.
 
 ## Prerequisites
 
@@ -62,82 +56,40 @@ If you don't have any of these tools installed, follow the provided links to ins
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-To start running this project we will perform the following steps.
-
-### Prerequisites for running Local
+### Install
 
 * npm
   ```sh
-  npm install npm@latest -g
+  git clone https://github.com/Agustin199811/user-service.git
+  cd user-service
   ```
 ### Installation for running Local
 
-Clone the repo
+1.- Clone the repository
    ```sh
-   git clone https://github.com/Retrofiyer/PetPhobia.git
-   cd PetPhobia
+   git clone https://github.com/Retrofiyer/User-Service.git
+   cd User-Service
    ```
-Run Cat Microservice
-1. Access /CatMicroservice
-   ```sh
-   cd CatMicroservice
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Create an .env and place
-    ```sh
-   CAT_API_KEY=API_CAT_KEY
-   CAT_API_URL=https://api.thecatapi.com/v1/images/search
-   ```
-5. Run CatService
-   ```sh
-   npm start
+2.- Build project using maven
+ ```sh
+   mvn clean install
    ```
 
-Run Dog Microservice
-1. Access /DogMicroservice
-   ```sh
-   cd DogMicroservice
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Create an .env and place
-    ```sh
-   DOG_API_KEY=API_DOG_KEY
-   DOG_API_URL=https://api.thedogapi.com/v1/images/search
-   ```
-5. Run DogService
-   ```sh
-   npm start
+## Configuration
+
+The configuration for the User Service is located in src/main/resources/application.properties. Below is an example configuration:
+
+ ```sh
+ spring.datasource.url=jdbc:postgresql://host-name:port/DB-Name
+ spring.datasource.username=postgres-username
+ spring.datasource.password=postgres-password
    ```
 
-Run Login Microservice
+## Running the service
 
-1. Access /LoginMicroservice
-   ```sh
-   cd LoginMicroservice
+  ```sh
+    mvn spring-boot:run
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Run DogService
-   ```sh
-   npm start
-   ```
-
-Run root proyect
-   ```sh
-   npm start
-   ```
-
-### Prerequisites run docker
-
 <!-- LINKS & IMAGES -->
 
 [docker.com]: https://img.shields.io/badge/Docker-black?style=for-the-badge&logo=docker&logoColor=white
