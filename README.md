@@ -56,14 +56,8 @@ If you don't have any of these tools installed, follow the provided links to ins
 
 <!-- GETTING STARTED -->
 ## Getting Started
-### Install
 
-* npm
-  ```sh
-  git clone https://github.com/Agustin199811/user-service.git
-  cd user-service
-  ```
-### Installation for running Local
+### Install
 
 1.- Clone the repository
    ```sh
@@ -90,6 +84,11 @@ The configuration for the User Service is located in src/main/resources/applicat
   ```sh
     mvn spring-boot:run
    ```
+
+## Contributing
+
+I would like you to contribute to this project. Whether it's fixing a bug, adding a new feature or improving the documentation, your help is always welcome. Please email me at sebitas5225@gmail.com with all the details for improvement.
+
 <!-- LINKS & IMAGES -->
 
 [docker.com]: https://img.shields.io/badge/Docker-black?style=for-the-badge&logo=docker&logoColor=white
