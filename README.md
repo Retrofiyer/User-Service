@@ -28,11 +28,18 @@
 
 This microservice is designed to handle the registration of users for a streaming application. It manages the creation of user accounts, including the capture and validation of user details such as username, password, and email. The microservice ensures that all user data is securely stored and that the registration process is seamless, providing an essential component for user authentication and account management within the streaming platform.
 
-Key features include:
-User Account Creation: Handles the registration process with input validation and error handling.
-Secure Data Storage: Ensures user credentials are encrypted and stored securely.
-Integration-Ready: Easily integrates with other services, such as authentication and user profile management, within the streaming platform.
-Scalability: Designed to handle a high volume of user registrations, making it suitable for large-scale applications.
+## Overview
+
+The User Service is a RESTful API built using Spring Boot. It offers endpoints for user registration, authentication and profile updates
+
+## Features
+
+<div>
+  <a> ► User Registration: Allows new users to register with the platform.</a>
+  <a> ► User Authentication: Enables users to log in and access their accounts securely.</a>
+  <a> ► Profile Management: Supports updating user profile information.</a>
+</div>
+
 
 ## Prerequisites
 
