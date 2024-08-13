@@ -71,7 +71,9 @@ If you don't have any of these tools installed, follow the provided links to ins
 
 ## Configuration
 
-The configuration for the User Service is located in src/main/resources/application.properties. Below is an example configuration:
+The configuration for the User Service is located in ```md
+src/main/resources/application.properties
+``` Below is an example configuration:
 
  ```sh
  spring.datasource.url=jdbc:postgresql://host-name:port/DB-Name
@@ -87,7 +89,9 @@ The configuration for the User Service is located in src/main/resources/applicat
 
 ## Contributing
 
-I would like you to contribute to this project. Whether it's fixing a bug, adding a new feature or improving the documentation, your help is always welcome. Please email me at sebitas5225@gmail.com with all the details for improvement.
+I would like you to contribute to this project. Whether it's fixing a bug, adding a new feature or improving the documentation, your help is always welcome. Please email me at ```md
+sebitas5225@gmail.com
+``` with all the details for improvement.
 
 <!-- LINKS & IMAGES -->
 
