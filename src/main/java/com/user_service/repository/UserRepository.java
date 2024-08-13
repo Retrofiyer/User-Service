@@ -1,4 +1,4 @@
-package com.user_service.persistence;
+package com.user_service.repository;
 
 import com.user_service.entities.User;
 import org.springframework.data.repository.CrudRepository;

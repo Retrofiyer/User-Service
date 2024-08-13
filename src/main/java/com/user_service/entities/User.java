@@ -29,7 +29,7 @@ public class User {
 
     private String password;
 
-    private Boolean enabled;
+    private boolean enabled;
 
     private String token;
 }

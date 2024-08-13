@@ -1,7 +1,8 @@
 package com.user_service.service;
 
 import com.user_service.entities.User;
-import com.user_service.persistence.UserRepository;
+import com.user_service.message.UserMessageProducer;
+import com.user_service.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -17,6 +18,9 @@ public class UserService implements IUserService {
 
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private UserMessageProducer userMessageProducer;
 
     @Autowired
     private PasswordEncoder passwordEncoder;
@@ -39,7 +43,9 @@ public class UserService implements IUserService {
         String encondedPassword = passwordEncoder.encode(user.getPassword());
         user.setPassword(encondedPassword);
         user.setEnabled(false);
-        return userRepository.save(user);
+        User savedUser = userRepository.save(user);
+        userMessageProducer.sendMessage(savedUser);
+        return savedUser;
     }
 
 }
