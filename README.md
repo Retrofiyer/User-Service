@@ -1,6 +1,15 @@
 <a id="readme-top"></a>
 
-<!-- TABLE OF CONTENTS -->
+<div>
+    <h1>User Registration Microservice</h1>
+</div>
+
+## About The Project
+
+This microservice is designed to handle the registration of users for a streaming application. It manages the creation of user accounts, including the capture and validation of user details such as username, password, and email. The microservice ensures that all user data is securely stored and that the registration process is seamless, providing an essential component for user authentication and account management within the streaming platform.
+
+## Table of Contents
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -19,14 +28,6 @@
     </li>
   </ol>
 </details>
-
-<div>
-    <h1>User Registration Microservice</h1>
-</div>
-
-## About The Project
-
-This microservice is designed to handle the registration of users for a streaming application. It manages the creation of user accounts, including the capture and validation of user details such as username, password, and email. The microservice ensures that all user data is securely stored and that the registration process is seamless, providing an essential component for user authentication and account management within the streaming platform.
 
 ## Overview
 
@@ -54,14 +55,15 @@ Before you begin, make sure you have the following tools installed on your machi
 If you don't have any of these tools installed, follow the provided links to install them.
 
 
-### Built With
-
-[![Java][java.com]][java-url]
-[![Spring Boot][springboot.com]][springboot-url]
-[![PostgreSQL][postgresql.com]][postgresql-url]
-[![RabbitMQ][rabbitmq.com]][rabbitmq-url]
-[![Swagger][swagger.com]][swagger-url]
-[![Docker][docker.com]][docker-url]
+## Built With
+<ul>
+  <li> [![Java][java.com]][java-url]</li>
+  <li> [![Spring Boot][springboot.com]][springboot-url]</li>
+  <li> [![PostgreSQL][postgresql.com]][postgresql-url]</li>
+   <li> [![RabbitMQ][rabbitmq.com]][rabbitmq-url]</li>
+   <li> [![Swagger][swagger.com]][swagger-url]</li>
+   <li> [![Docker][docker.com]][docker-url]</li>
+</ul>
 
 <!-- GETTING STARTED -->
 ## Getting Started
