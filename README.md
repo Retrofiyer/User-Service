@@ -48,7 +48,6 @@ The User Service is a RESTful API built using Spring Boot. It offers endpoints f
 
 ## Built With
 
-[![Java][java.com]][java-url]
 [![Spring Boot][springboot.com]][springboot-url]
 [![PostgreSQL][postgresql.com]][postgresql-url]
 [![RabbitMQ][rabbitmq.com]][rabbitmq-url]
