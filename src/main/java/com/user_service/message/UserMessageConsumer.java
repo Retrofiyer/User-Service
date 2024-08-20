@@ -1,5 +1,6 @@
 package com.user_service.message;
 
+import com.user_service.entities.SubscriptionMessage;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -102,4 +103,5 @@ public class UserMessageConsumer {
             rabbitTemplate.convertAndSend("auth.response.queue", responseMessage);
         }
     }
+
 }
